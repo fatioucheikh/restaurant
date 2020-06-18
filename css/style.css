@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
 
 /* Reset */
 
@@ -9,7 +9,7 @@
 }
 
 body{
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Playfair Display', sans-serif;
   background: #fff;
   color: #333;
   line-height: 1.6; /*espace entre les lignes*/
