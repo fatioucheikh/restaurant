@@ -138,6 +138,7 @@ img{
 
 .footer-item1 .text{
   padding-top: 20px;
+  text-align: justify;
 }
 
 .text-about-menu{
@@ -146,7 +147,12 @@ img{
 }
 
 .footer-item2 .text{
-  padding-top: 0px;
+  padding-top: 30px;
+  text-align: justify;
+}
+
+.text-before-dots{
+  font-weight: bold;
 }
 
 .social{
