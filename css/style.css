@@ -52,7 +52,7 @@ img{
 
 .py{ 
   padding-bottom: 2rem;
-  background: red;
+  background: url(../bg/bg_py.jpg);
 }
 
 .container{
@@ -96,7 +96,7 @@ img{
 
 #about{
   display: flex;
-  background: #ccc;
+  background: url(../bg/bg_about.jpg);
   justify-content: center;
 }
 
@@ -120,6 +120,7 @@ img{
   align-items: center;
   text-align: center;
   justify-content: center;
+  background: url('../bg/bg_footer.jpg');
   /* margin-bottom: 1rem; */
   /* background: red; */
 }
