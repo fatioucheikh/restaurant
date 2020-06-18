@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&display=swap');
+
+/* Reset */
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  font-family: 'Open Sans', sans-serif;
+  background: #fff;
+  color: #333;
+  line-height: 1.6; /*espace entre les lignes*/
+}
+
+ul{
+  list-style: none; /*pour enlever les points devant chaque objet de la liste*/
+}
+
+a{
+  color: #333;
+  text-decoration: none; /*enlever le trait sous le mot*/
+}
+
+/* p{
+
+} */
+
+img{
+  width: 100%;
+}
+
+.py-1{ padding: 2rem 0}
+.py-2{ margin: 2rem 0}
+
+.container{
+  max-width: 1100px;
+  margin: auto; /*to horizontally center the element within its container*/
+  padding: 0 2rem;
+  overflow: hidden;
+}
+
+#hero .navbar{
+  width: 100%; /*faire que navbar ait pour largeur la totalité de son contenu*/
+  display: flex; /*met en ligne les éléments*/
+  justify-content: space-between; /*mettre de l'espace entre les objets*/
+  padding: 30px 30px; /*mettre de l'espace entre les items et les bords de l'objet*/
+}
+
+#hero .navbar #navigation ul li{
+  float: left; /*mettre en ligne les boutons de navigation*/
+  margin: 0 3px; /*mettre de la marge à gauche et à droite*/
+}
+
+#hero .navbar #navigation ul li a{
+  display: block;
+  text-align: center;
+  padding: 16px 20px;
+
+}
+
+#hero .navbar #navigation ul li a:hover{
+  background: red;
+  color: white;
+}
+
+#hero{
+  background: url('../img/poulet.jpg');
+  height: 30vh;
+  overflow: hidden;
+}
+
+/* Home Sections */
+
+#about .sections-container{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+#about .sections-container .card{
+  text-align: center;
+  justify-content: center;
+}
