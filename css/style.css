@@ -12,7 +12,7 @@ body{
   font-family: 'Playfair Display', sans-serif;
   background: #fff;
   color: #333;
-  line-height: 1.6; /*espace entre les lignes*/
+  line-height: 1.4; /*espace entre les lignes*/
 }
 
 ul{
@@ -137,7 +137,7 @@ img{
 }
 
 .footer-item1 .text{
-  padding-top: 90px;
+  padding-top: 20px;
 }
 
 .text-about-menu{
@@ -146,7 +146,7 @@ img{
 }
 
 .footer-item2 .text{
-  padding-top: 50px;
+  padding-top: 0px;
 }
 
 .social{
@@ -160,9 +160,14 @@ i{
 }
 
 .d-h{
+  display: flex;
   margin-top: 0.5rem;
   border-top: dotted;
   border-width: 0.5px;
+}
+
+.d-h{
+  justify-content: space-between;
 }
 
 .bande-container{
