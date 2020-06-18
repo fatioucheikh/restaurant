@@ -95,10 +95,13 @@ img{
 /* Home Sections */
 
 #about{
+  display: flex;
   background: #ccc;
+  justify-content: center;
 }
 
 .sections-container{
+  width: 800px;
   margin: 0 1.5rem;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
@@ -134,6 +137,11 @@ img{
 
 .footer-item1 .text{
   padding-top: 90px;
+}
+
+.text-about-menu{
+  padding: 1rem 1rem 0 1rem;
+  text-align: justify;
 }
 
 .footer-item2 .text{
