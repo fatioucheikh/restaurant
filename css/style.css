@@ -94,9 +94,9 @@ img{
 
 /* Home Sections */
 
-#about{
+#about, #menu{
   display: flex;
-  background: url(../bg/bg_about.jpg);
+  background: url('../bg/bg_about1.jpg');
   justify-content: center;
 }
 
@@ -109,6 +109,7 @@ img{
 }
 
 .sections-container .card{
+  margin-bottom: 2rem;
   padding-top: 1.5rem;
   text-align: center;
   justify-content: center;
@@ -183,4 +184,48 @@ i{
   padding-bottom: 1rem;
   background: #333;
   color: white;
+}
+
+/* Menu */
+
+#menu{
+  display: flex;
+  justify-content: center;
+}
+
+.menu-container{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 5rem;
+}
+
+.menu1,
+.menu2{
+  margin-top: 2rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.dish-container,
+.drink-container{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-bottom: 1.5rem;
+  border-bottom: dotted;
+  border-width: 0.5px;
+  padding-bottom: 1rem;
+}
+
+.menu1 h3,
+.menu2 h3{
+  margin-bottom: 3rem;
+}
+
+.name-ingredients{
+  width: 90%
+}
+
+.name-ingredients h4{
+  margin-bottom: 1rem;
 }
