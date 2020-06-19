@@ -78,6 +78,7 @@ img{
   display: block;
   text-align: center;
   padding: 16px 20px;
+  color: #fff;
 }
 
 #hero .navbar #navigation ul li a:hover{
@@ -172,10 +173,11 @@ i{
   margin-top: 0.5rem;
   border-top: dotted;
   border-width: 0.5px;
+  justify-content: space-between;
 }
 
-.d-h{
-  justify-content: space-between;
+.footer-item3:last-child{
+  padding-bottom: 1rem;
 }
 
 .bande-container{
