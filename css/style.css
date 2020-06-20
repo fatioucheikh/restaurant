@@ -163,9 +163,9 @@ header, main, footer{
   text-align: justify;
 }
 
-.about-side{
+/* .about-side{
   height: 175px;
-}
+} */
 
 .footer-item2{
   display: flex;
