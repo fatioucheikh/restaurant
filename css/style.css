@@ -116,7 +116,7 @@ header, main, footer{
 }
 
 .sections-container{
-  width: 100%;
+  width: 900px;
   margin: 0 1.5rem;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
@@ -310,4 +310,72 @@ i{
 
 .form h2{
   margin-bottom: 1rem;
+}
+
+.menu1,
+.menu2{
+  padding: 0 1rem;
+}
+
+
+@media(max-width: 700px){
+  
+  #hero{
+    height: 350px;
+  }
+
+  .footer-container, 
+  .navbar,
+  #navigation ul,
+  .sections-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .footer-item1 h3,
+  .footer-item2 h3{
+    margin-bottom: 10px;
+  }
+
+  .footer-item1,
+  .footer-item2{
+    margin-bottom: 32px;
+  }
+
+  .menu-container{
+    display: flex;
+    flex-direction: column;
+  }
+
+  .menu1,
+  .menu2{
+    padding: 0 1rem;
+  }
+
+  #pictures .container .pictures-container{
+    display: flex;
+    flex-direction: column;
+  }
+
+  #pictures .container .pictures-container img{
+    margin-bottom: 1rem;
+  }
+
+  #contact .container .contact-container{
+    display: flex;
+    flex-direction: column;
+  }
+
+  #contact .container .contact-container .section-1{
+    display: none;
+  }
+
+  .form-control{
+    margin-bottom: 1rem;
+  }
+
+  .form-control textarea{
+    width: 100%;
+  }
 }
